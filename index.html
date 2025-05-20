@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ProductPin Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>ProductPin Generator</h1>
+  <input type="text" id="productTitle" placeholder="Product Title">
+  <input type="text" id="productImage" placeholder="Image URL">
+  <button onclick="generatePin()">Generate Pin</button>
+  <br/><br/>
+  <canvas id="pinCanvas" width="1000" height="1500"></canvas>
+  <button onclick="downloadPin()">Download Pin</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+input {
+  width: 300px;
+  margin: 10px;
+  padding: 8px;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
